@@ -1,0 +1,33 @@
+*{
+    border: 1px dashed red;
+  }
+  
+  .calContainer{
+    height: 400px;
+    width: 300px;
+  }
+  
+  .resultContainer{
+    height: 64px;
+    margin: 24px;
+  }
+  
+  .btnsContainer{
+    display: flex;
+  }
+  
+  .numpad{
+    height: 250px;
+    width: 175px;
+    margin: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+  
+  .operators{
+    height: 250px;
+    width: 50px;
+    display: grid;
+    margin: 24px;
+  }
